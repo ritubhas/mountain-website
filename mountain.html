@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mountain.css">
+    <title>Mountain Project</title>
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous">
+    </script>
+    
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="/" class="logo" >
+               Mountains View 
+            </a>
+            <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="nav__link hide">
+                <a href="#">Home</a>
+                <a href="#">ABout</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Implementation of Mountains API -->
+    <div class="label-selection">
+        <h1>Mountain Information</h1>
+        <label for="mountain-select">Select the mountain</label>
+        <select id="mountain-select"></select>
+    </div>
+    <div id="mountain-info">
+        <p id="mountain-name"></p>
+        <p id="mountain-description"></p>
+        <p id="mountain-elevation"></p>
+        <p id="mountain-effort"></p>
+        <img id="mountain-image" src="" />
+        <p id="sunrise-time"></p>
+        <p id="sunset-time"></p>
+    </div>
+    <footer>
+        <p>&copy; 2003 Ritika Nagpal. All rights reserved</p>
+    </footer>
+    <script src="mountainData.js"></script>
+    <script src="mountains.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>                                                                                      
